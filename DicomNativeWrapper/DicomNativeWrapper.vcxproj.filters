@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="DicomNativeWrapper.h" />
+    <ClInclude Include="Dicom\DicomCreator.h">
+      <Filter>Dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="Dicom\DicomFilesPusher.h">
+      <Filter>Dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="Dicom\DicomPusher.h">
+      <Filter>Dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="Dicom\FileImageSource.h">
+      <Filter>Dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="Dicom\FileImageSourceWrapper.h">
+      <Filter>Dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="Dicom\MemoryImageSource.h">
+      <Filter>Dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="Dicom\PixelGrabber.h">
+      <Filter>Dicom</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Marshal.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Stdafx.cpp" />
+    <ClCompile Include="DicomNativeWrapper.cpp" />
+    <ClCompile Include="Dicom\DicomCreator.cpp">
+      <Filter>Dicom</Filter>
+    </ClCompile>
+    <ClCompile Include="Dicom\DicomFilesPusher.cpp">
+      <Filter>Dicom</Filter>
+    </ClCompile>
+    <ClCompile Include="Dicom\DicomPusher.cpp">
+      <Filter>Dicom</Filter>
+    </ClCompile>
+    <ClCompile Include="Dicom\FileImageSource.cpp">
+      <Filter>Dicom</Filter>
+    </ClCompile>
+    <ClCompile Include="Dicom\MemoryImageSource.cpp">
+      <Filter>Dicom</Filter>
+    </ClCompile>
+    <ClCompile Include="Dicom\PixelGrabber.cpp">
+      <Filter>Dicom</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Marshal.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dicom">
+      <UniqueIdentifier>{14187c6c-33ba-4e6f-9f75-8491c99c8e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{01dc9477-8c55-4cda-93b0-f9771a23bdba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
